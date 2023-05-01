@@ -1,0 +1,155 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body, input, button, select, textarea {
+  font-family: 'verdana', sans-serif;
+}
+
+
+
+
+header h1{
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.page{
+    width: 736px;
+    margin: auto;
+}
+
+header{
+    width: 319px;
+    
+    margin-top: 74px;
+}
+
+
+
+body{
+    background: black;
+    font-family: verdana, sans-serif;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 368px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background:#A38A6C;
+    
+}
+
+header p{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+form{
+    background-color: #fff;
+    margin-top:38px;
+    min-height: 300px;
+    border-radius: 8px;
+
+    padding: 64px;
+}
+
+fieldset {
+    color: #A38A6C;
+    border: none;
+}
+
+.fieldsetw{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+fieldset legend {
+    font-family: 'verdana', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+
+    width: 100%;
+     
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+}
+
+.inputw{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputw label{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A38A6C;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+
+.inputw label span{
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A38A6C;
+    
+}
+
+.inputw label span:hover {
+    color: #6c6a71;
+}
+
+
+.inputw input{
+
+    background: #fafafc;
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+    
+    height: 56px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #A38A6C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-checkout {
+    background-color: #A38A6C;
+    color: #fff;
+}
